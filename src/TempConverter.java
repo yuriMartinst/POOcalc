@@ -23,7 +23,7 @@ public class TempConverter extends JFrame {
 
     public TempConverter() {
 
-        setTitle("Conversor de temp");
+        setTitle("Conversor de tempo");
         setSize(320,220);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
@@ -40,7 +40,7 @@ public class TempConverter extends JFrame {
         txtTempIn.setBounds(12, 46, 124, 26);
         contentPane.add(txtTempIn);
 
-        JRadioButton celRadio = new JRadioButton("Celcius");
+        JRadioButton celRadio = new JRadioButton("CELCIUS");
         buttonGroup.add(celRadio);
         celRadio.setBounds(212, 34, 67, 24);
         contentPane.add(celRadio);
@@ -49,8 +49,9 @@ public class TempConverter extends JFrame {
         buttonGroup.add(fahrenRadio);
         fahrenRadio.setBounds(212, 62, 85, 24);
         contentPane.add(fahrenRadio);
+//yurim 
 
-        JLabel lblTem = new JLabel("Para:");
+        JLabel lblTem = new JLabel("PARA:");
         lblTem.setBounds(154, 49, 78, 16);
         contentPane.add(lblTem);
 
@@ -72,7 +73,7 @@ public class TempConverter extends JFrame {
                         temp = temp * 1.8 + 32;
                         tempOutput.setText(Double.toString(temp));
                     }catch(Exception e){
-                        tempOutput.setText("Coloque uma temperatura valida.");
+                        tempOutput.setText("Coloque a temperatura");
                     }
                 }else{
                     try{
@@ -80,7 +81,7 @@ public class TempConverter extends JFrame {
                         temp = (temp - 32) * (5.0/9.0);
                         tempOutput.setText(Double.toString(temp));
                     }catch(Exception e){
-                        tempOutput.setText("Coloque uma temperatura valida.");
+                        tempOutput.setText("Coloque a temperatura");
                     }
                 }
             }

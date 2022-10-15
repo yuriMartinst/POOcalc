@@ -1,4 +1,4 @@
 # Converter_celsius_fahrenheit
 
-trabalho POO
- 
+Nome: yuri martins 
+  Trabalho POOcalc

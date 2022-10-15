@@ -21,7 +21,7 @@ public class TempConverter extends JFrame {
     private JPanel contentPane;
     private final ButtonGroup buttonGroup = new ButtonGroup();
 
-    public TempConverter() {
+    public Conversor) {
 
         setTitle("Conversor de tempo");
         setSize(320,220);

@@ -6,7 +6,7 @@ public class Main {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
-                    TempConverter frame = new TempConverter();
+                    TempConverter frame = new Conversor();
                     frame.setVisible(true);
                 } catch (Exception e) {
                     e.printStackTrace();
